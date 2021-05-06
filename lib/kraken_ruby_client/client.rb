@@ -244,7 +244,7 @@ module Kraken
       post_private 'TradeHistory', opts
     end
 
-    def query_history(opts = {})
+    def query_trades_history(opts = {})
       post_private 'QueryTrades', opts
     end
 
